@@ -14,12 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -41,3 +39,63 @@
   border: 2px solid pink;
   padding: 15px;
 }
+
+/* Chân trang */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4f4f4f;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.banner-container {
+  position: relative;
+  background-image: url('https://c.pxhere.com/photos/2f/a0/books_albums_comic_flea_market-490458.jpg!d');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Bạn có thể thay đổi chiều cao của banner */
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.banner-content h1 {
+  font-size: 3rem; /* Điều chỉnh kích thước font nếu cần */
+}
+
+.banner-content .btn {
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #343a40;  /* Màu nền của footer */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #f8f9fa; /* Màu cho các liên kết */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #adb5bd;
+}
+/* Chi tiết sản phẩm */
+
+
+
